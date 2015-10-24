@@ -1,0 +1,45 @@
+2015-10-23 11:20:43,238 INFO  context.ContextLoader - Root WebApplicationContext: initialization started
+2015-10-23 11:20:43,306 INFO  support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 23 11:20:43 CST 2015]; root of context hierarchy
+2015-10-23 11:20:43,370 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-10-23 11:20:43,458 INFO  annotation.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-10-23 11:20:43,604 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c57cb: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-10-23 11:20:43,739 INFO  service.NotifyService - 节点列表:{}
+2015-10-23 11:20:43,759 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/admin.do] onto handler 'adminController'
+2015-10-23 11:20:43,763 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2015-10-23 11:20:43,767 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/notify.do] onto handler 'notifyController'
+2015-10-23 11:20:44,347 INFO  context.ContextLoader - Root WebApplicationContext: initialization completed in 1109 ms
+2015-10-23 11:20:44,385 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization started
+2015-10-23 11:20:44,388 INFO  support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'diamond-servlet': startup date [Fri Oct 23 11:20:44 CST 2015]; parent: Root WebApplicationContext
+2015-10-23 11:20:44,389 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/diamond-servlet.xml]
+2015-10-23 11:20:44,409 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c4b126: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c57cb
+2015-10-23 11:20:44,446 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization completed in 61 ms
+2015-10-23 11:34:39,124 INFO  context.ContextLoader - Root WebApplicationContext: initialization started
+2015-10-23 11:34:39,197 INFO  support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 23 11:34:39 CST 2015]; root of context hierarchy
+2015-10-23 11:34:39,258 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-10-23 11:34:39,347 INFO  annotation.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-10-23 11:34:39,504 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@736e7c46: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-10-23 11:34:39,593 INFO  service.NotifyService - 节点列表:{}
+2015-10-23 11:34:39,618 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/admin.do] onto handler 'adminController'
+2015-10-23 11:34:39,623 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2015-10-23 11:34:39,627 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/notify.do] onto handler 'notifyController'
+2015-10-23 11:34:40,078 INFO  context.ContextLoader - Root WebApplicationContext: initialization completed in 953 ms
+2015-10-23 11:34:40,122 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization started
+2015-10-23 11:34:40,124 INFO  support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'diamond-servlet': startup date [Fri Oct 23 11:34:40 CST 2015]; parent: Root WebApplicationContext
+2015-10-23 11:34:40,126 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/diamond-servlet.xml]
+2015-10-23 11:34:40,147 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d9544fc: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@736e7c46
+2015-10-23 11:34:40,192 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization completed in 70 ms
+2015-10-23 11:35:10,547 INFO  context.ContextLoader - Root WebApplicationContext: initialization started
+2015-10-23 11:35:10,618 INFO  support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 23 11:35:10 CST 2015]; root of context hierarchy
+2015-10-23 11:35:10,679 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-10-23 11:35:10,768 INFO  annotation.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-10-23 11:35:10,924 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4796ea30: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-10-23 11:35:11,010 INFO  service.NotifyService - 节点列表:{}
+2015-10-23 11:35:11,032 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/admin.do] onto handler 'adminController'
+2015-10-23 11:35:11,037 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2015-10-23 11:35:11,041 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/notify.do] onto handler 'notifyController'
+2015-10-23 11:35:11,493 INFO  context.ContextLoader - Root WebApplicationContext: initialization completed in 946 ms
+2015-10-23 11:35:11,536 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization started
+2015-10-23 11:35:11,539 INFO  support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'diamond-servlet': startup date [Fri Oct 23 11:35:11 CST 2015]; parent: Root WebApplicationContext
+2015-10-23 11:35:11,540 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/diamond-servlet.xml]
+2015-10-23 11:35:11,561 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@546f68f: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4796ea30
+2015-10-23 11:35:11,606 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization completed in 70 ms

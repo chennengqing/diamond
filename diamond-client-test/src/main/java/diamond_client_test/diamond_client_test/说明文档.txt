@@ -1,0 +1,17 @@
+1. 修改/diamond-utils/src/main/java/com/taobao/diamond/common/Constants.java文件
+   public static final String DEFAULT_DOMAINNAME = "configlist.appleframework.com.cnq";
+   public static final String DAILY_DOMAINNAME = "configlist.appleframework.com.cnq";
+   public static final String HTTP_URI_FILE = "/diamond-server/config.co"; //diamond-server 服务器地址
+   public static final String CONFIG_HTTP_URI_FILE = "/diamond-cnq-list";  //放在nginx或者tomcat/bin下面的文件名
+   public static final int DEFAULT_PORT = 8080; //服务端端口,分布式端口必须一致
+   
+ 2. 配置hosts文件
+    127.0.0.1 configinfo.appleframework.com.cnq
+	127.0.0.1 configlist.appleframework.com.cnq
+   //127.0.0。1 为tomcat/bin/diamond-cnq-list下面配置地址
+   
+ 3. 在tomcat/bin或者nginx下面建立diamond-cnq-list文件
+ 	配置 127.0.0.1 ，
+ 	//改支持分布式， 可以配置多个，为服务端的ip
+ 
+ 4. 修改本地缓存文件C:\Users\Administrator\diamond/ServerAddress  为127.0.0。1 如果没有，不用管，要不然会连接到缓存的ip下面去
