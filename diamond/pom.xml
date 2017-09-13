@@ -241,13 +241,13 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>Local Nexus Releases Repository</name>
-			<url>http://192.168.1.198:8081/nexus/content/repositories/releases</url>
+			<url>http://192.168.1.237:8081/nexus/content/repositories/releases</url>
 		</repository>
 
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Local Nexus Snapshots Repository</name>
-			<url>http://192.168.1.198:8081/nexus/content/repositories/snapshots</url>
+			<url>http://192.168.1.237:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
