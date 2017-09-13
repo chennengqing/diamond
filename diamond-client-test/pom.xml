@@ -4,7 +4,7 @@
 
   <groupId>diamond-client-test</groupId>
   <artifactId>diamond-client-test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-RELEASES</version>
   <packaging>jar</packaging>
 
   <name>diamond-client-test</name>
